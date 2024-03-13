@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <h1 id="output"></h1>
+      <button onclick="pressButton1()">+</button>
+      <button onclick="pressButton2()">-</button>
+</body>
+</html>
+
+
+<script>
+
+    let output = document.getElementById('output')
+
+
+    let clickbutton = 0
+
+    output.innerHTML = clickbutton
+
+
+    function pressButton1() {
+
+        clickbutton ++
+
+        output.innerHTML = clickbutton
+        
+    }
+
+    function pressButton2() {
+
+        clickbutton --
+
+     output.innerHTML = clickbutton
+
+}
+
+
+
+
+</script>
